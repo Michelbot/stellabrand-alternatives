@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Canva",
+    "category": "Logo Design",
+    "estimatedUsers": "100M+",
+    "pricing": "Freemium",
+    "mainFeatures": ["Templates", "Drag & drop", "Collaboration"]
+  },
+  {
+    "name": "LogoMakr",
+    "category": "Logo Design",
+    "estimatedUsers": "5M+",
+    "pricing": "Freemium",
+    "mainFeatures": ["Simple editor", "Vector graphics", "Download"]
+  },
+  {
+    "name": "Hatchful by Shopify",
+    "category": "Logo Design",
+    "estimatedUsers": "3M+",
+    "pricing": "Free",
+    "mainFeatures": ["AI-powered", "Instant download", "Brand kit"]
+  },
+  {
+    "name": "Tailor Brands",
+    "category": "Logo Design",
+    "estimatedUsers": "2M+",
+    "pricing": "Paid",
+    "mainFeatures": ["AI logo", "Brand identity", "Business tools"]
+  },
+  {
+    "name": "Looka",
+    "category": "Logo Design",
+    "estimatedUsers": "1M+",
+    "pricing": "Paid",
+    "mainFeatures": ["AI design", "Brand kit", "Marketing materials"]
+  },
+  {
+    "name": "Wix Logo Maker",
+    "category": "Logo Design",
+    "estimatedUsers": "5M+",
+    "pricing": "Freemium",
+    "mainFeatures": ["AI-powered", "Customizable", "Brand kit"]
+  },
+  {
+    "name": "Ucraft Logo Maker",
+    "category": "Logo Design",
+    "estimatedUsers": "500K+",
+    "pricing": "Free",
+    "mainFeatures": ["Free download", "Simple", "Quick"]
+  },
+  {
+    "name": "DesignEvo",
+    "category": "Logo Design",
+    "estimatedUsers": "1M+",
+    "pricing": "Freemium",
+    "mainFeatures": ["10k+ templates", "Customization", "Vector files"]
+  },
+  {
+    "name": "LogoGarden",
+    "category": "Logo Design",
+    "estimatedUsers": "300K+",
+    "pricing": "Paid",
+    "mainFeatures": ["Professional designs", "Vector files", "Support"]
+  },
+  {
+    "name": "FreeLogoDesign",
+    "category": "Logo Design",
+    "estimatedUsers": "2M+",
+    "pricing": "Freemium",
+    "mainFeatures": ["Free basic", "Templates", "Quick creation"]
+  },
+  {
+    "name": "Brandmark",
+    "category": "Logo Design",
+    "estimatedUsers": "500K+",
+    "pricing": "Paid",
+    "mainFeatures": ["AI-powered", "Brand assets", "Style guide"]
+  },
+  {
+    "name": "Namecheap Logo Maker",
+    "category": "Logo Design",
+    "estimatedUsers": "1M+",
+    "pricing": "Free",
+    "mainFeatures": ["Free forever", "No signup", "Instant download"]
+  }
+]
