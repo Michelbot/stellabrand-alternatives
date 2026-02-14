@@ -3,118 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Logo Maker Alternatives 2026 - StellaBrand (Free)</title>
-    <meta name="description" content="Compare the best alternatives to logo creators. StellaBrand - 100% free, Chrome extension, no sign-up, no watermark.">
+    <title>StellaBrand Logo Maker - Best Free Logo Maker Alternative</title>
+    <meta name="description" content="Discover the best free alternative to popular logo makers. StellaBrand Logo Maker offers AI-powered logo creation with no sign-up required.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #f8f9fa;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
+        
+        :root {
+            --primary: #0EA5E9;
+            --secondary: #38BDF8;
+            --cta: #F97316;
+            --bg-light: #F0F9FF;
+            --text: #0C4A6E;
+            --neutral-dark: #1E293B;
+            --neutral-light: #F8FAFC;
+            --white: #FFFFFF;
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Open Sans', sans-serif;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+            --space-2xl: 3rem;
+            --space-3xl: 4rem;
+            --transition: all 200ms ease;
+        }
+        
+        body {
+            font-family: var(--font-body);
+            color: var(--text);
+            background: var(--white);
+            line-height: 1.6;
+        }
+        
+        h1, h2 { font-family: var(--font-heading); font-weight: 600; color: var(--neutral-dark); }
+        h1 { font-size: clamp(2.5rem, 5vw, 4rem); }
+        h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+        
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg);
+        }
+        
         header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 100px 20px;
+            background: var(--white);
+            padding: var(--space-lg) 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.875rem 2rem;
+            border-radius: 0.5rem;
+            font-family: var(--font-heading);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .btn-primary {
+            background: var(--cta);
+            color: var(--white);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(249, 115, 22, 0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+        
+        .hero {
+            padding: var(--space-3xl) 0;
+            background: linear-gradient(180deg, var(--bg-light) 0%, var(--white) 100%);
             text-align: center;
         }
-        h1 { font-size: 3.5em; margin-bottom: 25px; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 50px 20px; }
-        .grid {
+        
+        .hero h1 {
+            margin-bottom: var(--space-lg);
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.8;
+            margin-bottom: var(--space-2xl);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        section {
+            padding: var(--space-3xl) 0;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--space-2xl);
+        }
+        
+        .alternatives-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 35px;
-            margin: 50px 0;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: var(--space-xl);
         }
-        .card {
-            background: white;
-            padding: 35px;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            transition: all 0.3s;
+        
+        .alternative-card {
+            background: var(--white);
+            padding: var(--space-xl);
+            border-radius: 0.75rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            text-align: center;
         }
-        .card:hover { transform: translateY(-8px); box-shadow: 0 8px 25px rgba(0,0,0,0.12); }
-        .card h3 { color: #667eea; margin-bottom: 18px; font-size: 1.4em; }
-        .card p { color: #666; line-height: 1.6; }
-        .card a {
-            display: inline-block;
-            margin-top: 20px;
-            color: #667eea;
+        
+        .alternative-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .alternative-card h3 {
+            margin-bottom: 0.5rem;
+            color: var(--neutral-dark);
+        }
+        
+        .alternative-card p {
+            opacity: 0.7;
+            margin-bottom: var(--space-lg);
+        }
+        
+        footer {
+            background: var(--neutral-dark);
+            color: var(--white);
+            padding: var(--space-2xl) 0;
+            text-align: center;
+        }
+        
+        footer a {
+            color: var(--secondary);
             text-decoration: none;
-            font-weight: bold;
-            font-size: 1.05em;
         }
-        .card a:hover { text-decoration: underline; }
+        
+        @media (max-width: 768px) {
+            .alternatives-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>🎨 Logo Maker Alternatives</h1>
-        <p style="font-size: 1.4em; opacity: 0.95; margin-top: 15px;">Find the best free alternative to create your logos</p>
-    </header>
-    
-    <div class="container">
-        <div class="grid">
-            <div class="card">
-                <h3>Canva Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to Canva for creating professional logos.</p>
-                <a href="alternative-to-canva.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>LogoMakr Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to LogoMakr for creating professional logos.</p>
-                <a href="alternative-to-logomakr.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>Hatchful by Shopify Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to Hatchful by Shopify for creating professional logos.</p>
-                <a href="alternative-to-hatchful-by-shopify.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>Tailor Brands Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to Tailor Brands for creating professional logos.</p>
-                <a href="alternative-to-tailor-brands.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>Looka Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to Looka for creating professional logos.</p>
-                <a href="alternative-to-looka.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>Wix Logo Maker Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to Wix Logo Maker for creating professional logos.</p>
-                <a href="alternative-to-wix-logo-maker.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>Ucraft Logo Maker Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to Ucraft Logo Maker for creating professional logos.</p>
-                <a href="alternative-to-ucraft-logo-maker.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>DesignEvo Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to DesignEvo for creating professional logos.</p>
-                <a href="alternative-to-designevo.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>LogoGarden Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to LogoGarden for creating professional logos.</p>
-                <a href="alternative-to-logogarden.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>FreeLogoDesign Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to FreeLogoDesign for creating professional logos.</p>
-                <a href="alternative-to-freelogodesign.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>Brandmark Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to Brandmark for creating professional logos.</p>
-                <a href="alternative-to-brandmark.html">Compare Now →</a>
-            </div>
-            <div class="card">
-                <h3>Namecheap Logo Maker Alternative</h3>
-                <p>Discover why StellaBrand is a better free alternative to Namecheap Logo Maker for creating professional logos.</p>
-                <a href="alternative-to-namecheap-logo-maker.html">Compare Now →</a>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">StellaBrand Logo Maker</a>
+                <a href="https://chromewebstore.google.com/detail/stellabrand-logo-maker/YOUR_EXTENSION_ID" class="btn btn-primary" target="_blank">Add to Chrome - Free</a>
             </div>
         </div>
-    </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>The Best Free Logo Maker</h1>
+            <p>Compare StellaBrand Logo Maker to other logo design tools. 100% free, AI-powered, no sign-up required. Find out why 500+ users chose us.</p>
+            <a href="https://chromewebstore.google.com/detail/stellabrand-logo-maker/YOUR_EXTENSION_ID" class="btn btn-primary" target="_blank">Get StellaBrand Logo Maker - Free Forever</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Compare with Popular Alternatives</h2>
+                <p>See how StellaBrand Logo Maker compares to other logo makers</p>
+            </div>
+            
+            <div class="alternatives-grid">
+                <div class="alternative-card">
+                    <h3>Canva Alternative</h3>
+                    <p>100M+ users • Freemium</p>
+                    <a href="alternative-to-canva.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>LogoMakr Alternative</h3>
+                    <p>5M+ users • Freemium</p>
+                    <a href="alternative-to-logomakr.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>Hatchful by Shopify Alternative</h3>
+                    <p>3M+ users • Free</p>
+                    <a href="alternative-to-hatchful-by-shopify.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>Tailor Brands Alternative</h3>
+                    <p>2M+ users • Paid</p>
+                    <a href="alternative-to-tailor-brands.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>Looka Alternative</h3>
+                    <p>1M+ users • Paid</p>
+                    <a href="alternative-to-looka.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>Wix Logo Maker Alternative</h3>
+                    <p>5M+ users • Freemium</p>
+                    <a href="alternative-to-wix-logo-maker.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>Ucraft Logo Maker Alternative</h3>
+                    <p>500K+ users • Free</p>
+                    <a href="alternative-to-ucraft-logo-maker.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>DesignEvo Alternative</h3>
+                    <p>1M+ users • Freemium</p>
+                    <a href="alternative-to-designevo.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>LogoGarden Alternative</h3>
+                    <p>300K+ users • Paid</p>
+                    <a href="alternative-to-logogarden.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>FreeLogoDesign Alternative</h3>
+                    <p>2M+ users • Freemium</p>
+                    <a href="alternative-to-freelogodesign.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>Brandmark Alternative</h3>
+                    <p>500K+ users • Paid</p>
+                    <a href="alternative-to-brandmark.html" class="btn btn-secondary">Compare →</a>
+                </div>
+                <div class="alternative-card">
+                    <h3>Namecheap Logo Maker Alternative</h3>
+                    <p>1M+ users • Free</p>
+                    <a href="alternative-to-namecheap-logo-maker.html" class="btn btn-secondary">Compare →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 StellaBrand Logo Maker. All rights reserved.</p>
+            <p style="margin-top: 1rem; opacity: 0.7;">
+                <a href="https://chromewebstore.google.com/detail/stellabrand-logo-maker/YOUR_EXTENSION_ID" target="_blank">Chrome Web Store</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
